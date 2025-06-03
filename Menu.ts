@@ -6,13 +6,21 @@ export function main() {
 
     let opcao: number;
 
-     // Objeto da Classe Conta (Teste)
-    const conta: Conta = new Conta(1, 123, 1, "Adriana", 10000);
-    conta.visualizar();
-    conta.sacar(10500);
-    conta.visualizar();
-    conta.depositar(5000);
-    conta.visualizar();
+    const contam: Conta = new Conta(1, 111, 2, "Maria", 5000);
+    const contaj: Conta = new Conta(2, 111, 1, "João", 10000);
+
+    contam.visualizar();
+    contam.sacar(250);
+    contam.visualizar();
+    contam.depositar(5000);
+    contam.visualizar();
+
+
+    contaj.visualizar();
+    contaj.sacar(10500);
+    contaj.visualizar();
+    contaj.depositar(3000);
+    contaj.visualizar();
 
     while (true) {
         console.log(colors.bg.black, colors.fg.magentastrong,

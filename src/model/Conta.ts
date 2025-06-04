@@ -1,6 +1,6 @@
 import { colors } from '../util/Colors';
 
-export class Conta {
+export abstract class Conta {
 
     private _numero: number;
     private _agencia: number;
@@ -84,14 +84,14 @@ export class Conta {
                 break;
         }
 
-        console.log(colors.fg.cyanstrong,"\n*****************************************************");
+        console.log(colors.fg.cyanstrong,"\n\n*****************************************************");
         console.log("Dados da Conta:");
         console.log("*****************************************************");
         console.log("Numero da Conta: " + this._numero);
         console.log("Agência: " + this._agencia);
         console.log("Tipo da Conta: " + tipo);
         console.log("Titular: " + this._titular);
-        console.log("Saldo: " + this._saldo.toFixed(2), "\n\n", colors.reset);
+        console.log("Saldo: " + this._saldo.toFixed(2)+ colors.reset);
 
     }
 

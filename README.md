@@ -9,7 +9,7 @@ Este é um sistema de **simulação bancária** desenvolvido em **TypeScript** c
 - ❌ Encerrar conta
 - ✏️ Atualizar dados da conta
 - 💸 Sacar valores
-- - 💰 Depositar valores
+- 💰 Depositar valores
 - 💱 Transferir valores entre as contas
 - 🔁 Operações via terminal interativo
 
